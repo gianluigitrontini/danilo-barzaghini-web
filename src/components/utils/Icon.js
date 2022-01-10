@@ -1,3 +1,6 @@
+import languageItalian from '../../assets/images/language-italy.png';
+import languageGerman from '../../assets/images/language-germany.png';
+import languageEnglish from '../../assets/images/language-english.png';
 const Icon = (props) => {
   return (
     <>
@@ -67,6 +70,15 @@ const Icon = (props) => {
             <path d='M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414L.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z' />
           </g>
         </svg>
+      )}
+      {props.italian && (
+        <img src={languageItalian} alt='Bandiera Italiana' className='w-6' />
+      )}
+      {props.german && (
+        <img src={languageGerman} alt='Bandiera Tedesca' className='w-6' />
+      )}
+      {props.english && (
+        <img src={languageEnglish} alt='Bandiera Inglese' className='w-6' />
       )}
     </>
   );

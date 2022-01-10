@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ReviewQuotes from '../../../assets/images/review-quotes.png';
 import libro from '../../../assets/images/libro.png';
-import { mainReviewsData } from '../../../assets/MainReviewsData';
+import { content } from '../../../data/content';
+import { LangContext } from '../../../context/LangContext';
 
 function MainReviews() {
+  const { state } = useContext(LangContext);
+
   const ReviewBlock = ({ review }) => {
     return (
       <div className='flex items-start my-8 p-4 pb-0 hover:bg-gray-50'>
@@ -22,20 +25,44 @@ function MainReviews() {
       </h2>
       <div className='container flex items-start justify-between'>
         <div className='flex-1'>
-          {mainReviewsData.column1.map((review) => (
-            <ReviewBlock review={review} />
-          ))}
+          {state.language === 'en'
+            ? content.homepage.en.reviews.column1.map((review) => (
+                <ReviewBlock review={review} />
+              ))
+            : state.language === 'de'
+            ? content.homepage.de.reviews.column1.map((review) => (
+                <ReviewBlock review={review} />
+              ))
+            : content.homepage.it.reviews.column1.map((review) => (
+                <ReviewBlock review={review} />
+              ))}
         </div>
         <div className='flex-1'>
-          {mainReviewsData.column2.map((review) => (
-            <ReviewBlock review={review} />
-          ))}
+          {state.language === 'en'
+            ? content.homepage.en.reviews.column2.map((review) => (
+                <ReviewBlock review={review} />
+              ))
+            : state.language === 'de'
+            ? content.homepage.de.reviews.column2.map((review) => (
+                <ReviewBlock review={review} />
+              ))
+            : content.homepage.it.reviews.column2.map((review) => (
+                <ReviewBlock review={review} />
+              ))}
         </div>
         <div className='flex-1'>
           <img src={libro} alt='' className='-mt-[60%]' />
-          {mainReviewsData.column3.map((review) => (
-            <ReviewBlock review={review} />
-          ))}
+          {state.language === 'en'
+            ? content.homepage.en.reviews.column3.map((review) => (
+                <ReviewBlock review={review} />
+              ))
+            : state.language === 'de'
+            ? content.homepage.de.reviews.column3.map((review) => (
+                <ReviewBlock review={review} />
+              ))
+            : content.homepage.it.reviews.column3.map((review) => (
+                <ReviewBlock review={review} />
+              ))}
         </div>
       </div>
     </section>

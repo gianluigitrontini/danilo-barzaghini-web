@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/styles/app.scss';
 import App from './App';
+import { LangContextProvider } from './context/LangContext';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <LangContextProvider>
     <App />
-  </React.StrictMode>,
+  </LangContextProvider>,
   document.getElementById('root')
 );
 

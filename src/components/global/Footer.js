@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import logo from '../../assets/images/logo.png';
 import Icon from '../utils/Icon';
+import { content } from '../../data/content';
+import { LangContext } from '../../context/LangContext';
 
 function Footer() {
+  const { state } = useContext(LangContext);
+
   const Logo = () => {
     return (
       <img
@@ -17,9 +21,19 @@ function Footer() {
     return (
       <div className='footer-contact-background w-[350px] ml-auto -mt-[5rem] relative'>
         <h3 className='absolute right-[.75rem] font-bold text-xl pr-4 -top-[1rem] border-r-2 border-orange-500'>
-          Contacts
+          {state.language === 'en'
+            ? content.homepage.en.contact.title
+            : state.language === 'de'
+            ? content.homepage.de.contact.title
+            : content.homepage.it.contact.title}
         </h3>
-        <span>You can contact me without obligation for more information.</span>
+        <span>
+          {state.language === 'en'
+            ? content.homepage.en.contact.text
+            : state.language === 'de'
+            ? content.homepage.de.contact.text
+            : content.homepage.it.contact.text}
+        </span>
 
         <span className='flex items-center gap-2 my-4 text-xl'>
           <Icon phone /> +41 (0)79 222 333 7
