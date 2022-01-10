@@ -2,7 +2,7 @@ export const mainReviewsData = {
   column1: [
     {
       text: "The collaboration with Danilo is Humorous, clear and precise. He asked me clear and direct questions, to focus the work on the topics, that I want to change. Within a few sessions I was able to experience profound changes on the physical and emotional level. Thank you very much for your work. It's nice that you exist.",
-      author: 'S.B. Switzerland',
+      author: 'S.B. - Switzerland',
     },
     {
       text: "Danilo, we know each other and have been friends for a lifetime, I admire and fascinate your path, I just want to say a big THANK YOU for what you have done to my subconscious. My habits with sweets have changed, I feel free, more energetic and in control of myself, it is me who decide when and how much. I still don't know how you did it, but I don't care. Keep helping those who ask you.",
@@ -14,7 +14,7 @@ export const mainReviewsData = {
     },
     {
       text: "Thanks to the work with Danilo, I have already been able to address and heal various issues, both physical and psychological. With a few targeted questions, he has comprehensively grasped the issues to be addressed and dissolved blockages in a very short time. For me, energy work always requires a high level of trust. With Danilo this trust was 100% there from the first moment. What amazed and convinced me the most was that I didn't have to do anything. The desire and the inner willingness to change something in my own life for the better was enough to feel positive results immediately and clearly. No need to drink water, swallow pills or do gymnastic exercises for weeks and months. Dear Danilo, thank you very much for your work, which is a great enrichment for my well-being and which I appreciate very much. Just as I value you incredibly as a person.",
-      author: 'K.G. Lucerne',
+      author: 'K.G. - Lucerne',
     },
   ],
   column2: [
@@ -23,7 +23,7 @@ export const mainReviewsData = {
       author: 'P.B. - Switzerland',
     },
     {
-      text: 'I have come to know and appreciate Danilo as an incredibly emphatic, upbeat person. He has helped me in my self-process with his great knowledge to release my blockages and dissolve my old patterns. Danilo I am incredibly grateful for your support and yourm warm nature.',
+      text: 'I have come to know and appreciate Danilo as an incredibly emphatic, upbeat person. He has helped me in my self-process with his great knowledge to release my blockages and dissolve my old patterns. Danilo I am incredibly grateful for your support and your warm nature.',
       author: 'A.H. - Switzerland',
     },
     {
