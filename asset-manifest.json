@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/danilo-barzaghini-web/static/css/main.cbec95d6.css",
-    "main.js": "/danilo-barzaghini-web/static/js/main.403dde97.js",
+    "main.css": "/danilo-barzaghini-web/static/css/main.e8903334.css",
+    "main.js": "/danilo-barzaghini-web/static/js/main.ca55d020.js",
     "static/media/libro.png": "/danilo-barzaghini-web/static/media/libro.4bc0bea520d0493bc468.png",
     "static/media/hero-image.jpg": "/danilo-barzaghini-web/static/media/hero-image.7c36947bba554f0ec451.jpg",
     "static/media/hero-scroll-down.png": "/danilo-barzaghini-web/static/media/hero-scroll-down.533514a2c62bc53f7c35.png",
     "static/media/logo.png": "/danilo-barzaghini-web/static/media/logo.3cee7a3084be7991b790.png",
     "index.html": "/danilo-barzaghini-web/index.html",
-    "main.cbec95d6.css.map": "/danilo-barzaghini-web/static/css/main.cbec95d6.css.map",
-    "main.403dde97.js.map": "/danilo-barzaghini-web/static/js/main.403dde97.js.map"
+    "main.e8903334.css.map": "/danilo-barzaghini-web/static/css/main.e8903334.css.map",
+    "main.ca55d020.js.map": "/danilo-barzaghini-web/static/js/main.ca55d020.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbec95d6.css",
-    "static/js/main.403dde97.js"
+    "static/css/main.e8903334.css",
+    "static/js/main.ca55d020.js"
   ]
 }
