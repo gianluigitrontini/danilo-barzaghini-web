@@ -11,8 +11,25 @@
 
 .hero-background {
   background-image: url('../../images/hero-image.jpg');
-  height: 85vh;
+  height: 95vh;
   background-size: cover;
   margin-top: -85px;
+  z-index: 0;
+}
+
+.footer-background {
+  background-image: url('../../images/footer-background.png');
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.footer-contact-background {
+  background-image: url('../../images/footer-contact-background.png');
+  height: 20rem;
+  padding: 4rem 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
   z-index: 0;
 }
