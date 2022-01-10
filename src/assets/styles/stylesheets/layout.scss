@@ -1,0 +1,18 @@
+.container {
+  @apply mx-auto px-8;
+  width: 100%;
+  @screen md {
+    max-width: 1400px;
+  }
+}
+
+.container.wide {
+}
+
+.hero-background {
+  background-image: url('../../images/hero-image.jpg');
+  height: 85vh;
+  background-size: cover;
+  margin-top: -85px;
+  z-index: 0;
+}
