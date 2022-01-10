@@ -20,48 +20,60 @@ function MainReviews() {
   };
   return (
     <section>
+      <img
+        src={libro}
+        alt=''
+        className='block left-[3rem] relative lg:hidden'
+      />
+
       <h2 className='font-bold text-xl mt-8 text-center'>
-        ~ They say about me ~
+        ~{' '}
+        {state.language === 'en'
+          ? 'They say about me'
+          : state.language === 'de'
+          ? 'Man sagt über mich'
+          : 'Dicono di me'}{' '}
+        ~
       </h2>
-      <div className='container flex items-start justify-between'>
+      <div className='container flex flex-col lg:flex-row items-start justify-between'>
         <div className='flex-1'>
           {state.language === 'en'
-            ? content.homepage.en.reviews.column1.map((review) => (
-                <ReviewBlock review={review} />
+            ? content.homepage.en.reviews.column1.map((review, i) => (
+                <ReviewBlock key={i} review={review} />
               ))
             : state.language === 'de'
-            ? content.homepage.de.reviews.column1.map((review) => (
-                <ReviewBlock review={review} />
+            ? content.homepage.de.reviews.column1.map((review, i) => (
+                <ReviewBlock key={i} review={review} />
               ))
-            : content.homepage.it.reviews.column1.map((review) => (
-                <ReviewBlock review={review} />
+            : content.homepage.it.reviews.column1.map((review, i) => (
+                <ReviewBlock key={i} review={review} />
               ))}
         </div>
         <div className='flex-1'>
           {state.language === 'en'
-            ? content.homepage.en.reviews.column2.map((review) => (
-                <ReviewBlock review={review} />
+            ? content.homepage.en.reviews.column2.map((review, i) => (
+                <ReviewBlock key={i} review={review} />
               ))
             : state.language === 'de'
-            ? content.homepage.de.reviews.column2.map((review) => (
-                <ReviewBlock review={review} />
+            ? content.homepage.de.reviews.column2.map((review, i) => (
+                <ReviewBlock key={i} review={review} />
               ))
-            : content.homepage.it.reviews.column2.map((review) => (
-                <ReviewBlock review={review} />
+            : content.homepage.it.reviews.column2.map((review, i) => (
+                <ReviewBlock key={i} review={review} />
               ))}
         </div>
         <div className='flex-1'>
-          <img src={libro} alt='' className='-mt-[60%]' />
+          <img src={libro} alt='' className='hidden lg:block -mt-[60%]' />
           {state.language === 'en'
-            ? content.homepage.en.reviews.column3.map((review) => (
-                <ReviewBlock review={review} />
+            ? content.homepage.en.reviews.column3.map((review, i) => (
+                <ReviewBlock key={i} review={review} />
               ))
             : state.language === 'de'
-            ? content.homepage.de.reviews.column3.map((review) => (
-                <ReviewBlock review={review} />
+            ? content.homepage.de.reviews.column3.map((review, i) => (
+                <ReviewBlock key={i} review={review} />
               ))
-            : content.homepage.it.reviews.column3.map((review) => (
-                <ReviewBlock review={review} />
+            : content.homepage.it.reviews.column3.map((review, i) => (
+                <ReviewBlock key={i} review={review} />
               ))}
         </div>
       </div>

@@ -1,7 +1,9 @@
 .container {
-  @apply mx-auto px-8;
+  @apply mx-auto px-4;
   width: 100%;
   @screen md {
+    @apply px-8;
+
     max-width: 1400px;
   }
 }
@@ -19,17 +21,22 @@
 
 .footer-background {
   background-image: url('../../images/footer-background.png');
-  height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
+  @screen lg {
+    height: 20rem;
+  }
 }
 
 .footer-contact-background {
   background-image: url('../../images/footer-contact-background.png');
-  height: 20rem;
   padding: 4rem 2rem;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  @screen lg {
+    background-size: contain;
+  }
   z-index: 0;
+  height: 20rem;
 }

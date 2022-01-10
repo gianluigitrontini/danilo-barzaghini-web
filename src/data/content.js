@@ -9,47 +9,47 @@ export const content = {
         column1: [
           {
             text: 'La collaborazione con Danilo è divertente, chiara e precisa. Mi ha fatto domande chiare e dirette, per focalizzare il lavoro sui temi che voglio cambiare. In poche sedute ho potuto sperimentare profondi cambiamenti a livello fisico ed emotivo. Grazie mille per il suo lavoro. È bello che ci sei.',
-            author: 'S.B. - Switzerland',
+            author: 'S.B. - Svizzera',
           },
           {
             text: 'Danilo, ci conosciamo e siamo amici da una vita, ammiro e affascino il tuo percorso, voglio solo dirti un grande GRAZIE per quello che hai fatto al mio subconscio. Le mie abitudini con i dolci sono cambiate, mi sento libera, più energica e in controllo di me stessa, sono io che decido quando e quanto. Non so ancora come hai fatto, ma non mi interessa. Continua ad aiutare chi te lo chiede.',
-            author: 'B.B. - Switzerland',
+            author: 'B.B. - Svizzera',
           },
           {
             text: 'Danilo mi ha aiutato con esercizi convincenti a riconoscere e risolvere i modelli nel mio comportamento. Un passo importante per la mia autovalutazione! Molte grazie per il tuo meraviglioso lavoro.',
-            author: 'K.A. - Zurich',
+            author: 'K.A. - Zurigo',
           },
           {
             text: 'Grazie al lavoro con Danilo, ho già potuto affrontare e guarire diversi problemi, sia fisici che psicologici. Con poche domande mirate, ha colto in modo completo le questioni da affrontare e ha sciolto i blocchi in pochissimo tempo. Per me, il lavoro energetico richiede sempre un alto livello di fiducia. Con Danilo questa fiducia c’è stata al 100% dal primo momento. Ciò che mi ha stupito e convinto di più è che non dovevo fare nulla. Il desiderio e la volontà interiore di cambiare in meglio qualcosa nella mia vita è stato sufficiente per sentire immediatamente e chiaramente i risultati positivi. Non si beve acqua, non si ingoiano pillole e nemmeno si fanno esercizi ginnici per settimane e mesi. Caro Danilo, grazie mille per il tuo lavoro, che è un grande arricchimento per il mio benessere e che apprezzo molto. Così come ti stimo incredibilmente come persona.',
-            author: 'K.G. - Lucerne',
+            author: 'K.G. - Lucerna',
           },
         ],
         column2: [
           {
             text: 'Ho conosciuto Danilo come un uomo aperto, empatico e benevolo. Il fatto che le persone siano felici, sane e soddisfatte gli sta a cuore. Mi ha sostenuto perché continuo a lottare con le vertigini, associate a vari problemi di salute. Nel mio caso, la medicina convenzionale ha dei limiti che Danilo può superare in un altro modo. Durante il suo lavoro è molto presente per me, in senso positivo. Non tutti i disturbi sono scomparsi (ancora). Tuttavia, la sensazione di affrontarli è un’altra, che è fondamentale. Il miglioramento è molto evidente. Ho recuperato molta qualità di vita e sono grato di aver incontrato quest’uomo.',
-            author: 'P.B. - Switzerland',
+            author: 'P.B. - Svizzera',
           },
           {
             text: 'Ho conosciuto e apprezzato Danilo come una persona incredibilmente empatica e aperta. Con la sua grande conoscenza, mi ha aiutato nel mio processo per rilasciare i miei blocchi e dissolvere i miei vecchi schemi. Danilo, ti sono incredibilmente grato per il tuo sostegno e la tua natura calorosa.',
-            author: 'A.H. - Switzerland',
+            author: 'A.H. - Svizzera',
           },
           {
             text: 'È passato del tempo e mi sono accorta di ulteriori miglioramenti. Il ginocchio che era sempre gonfio e dolorante non lo è più, ho cambiato postura e modo di camminare. Cammino molto di più rispetto a prima. Il colesterolo si è abbassato e ho voglia di cibo più sano. Ho i nervi più saldi, sotto stress resto lucida e non mi agito più emotivamente. Ho più gioia in generale rispetto alla vita, passo più tempo all’aperto. Ho smesso di bere alcol e sto meglio, sono più vigile, dormo meglio e al risveglio mi sento rigenerata.',
-            author: 'M.B. - Switzerland',
+            author: 'M.B. - Svizzera',
           },
           {
             text: `Carissimo Danilo. In breve ti scrivo della mia esperienza..prima e dopo il lavoro esperienziale fatto due giorni fa’. Sono arrivata da te, sentendomi spossata..esausta..triste, con un sentimento di ansia..vuoto e angoscia, che mi trascinavo oramai da tempo..con l’energia al limite di riserva, che si potrebbe descrivere come un principio di depressione dell’anima. Interessante e’ stata la sensazione..di prenderne coscienza..di quanto la mente attraverso il corpo parla..percependo il collegamento..di questa connessione..e per vibrazione in disequilibrio..in prima istanza una sensazione strana di barcolaggio fisico generale..poi la chiarezza del tutto..immagini ed emozioni che appaiono..e riaffiorano..il peso che dalla somma del capo a poco a poco e’ sceso nel corpo..fino ai piedi e alle estremità delle mani..con l’istinto di scuoterli per liberare la stanchezza e la pesantezza captata e percepita durante la seduta..una vera liberazione di cose accumulate inutilmente prima!!! Lo scambio di battute erano un misto di pianto iniziale nel sentire il peso del vecchio..trasformandosi in risata..sempre piu’ consapevole e liberatoria. Mi sento ora liberata..definitivamente da quel passato che mi ero incollata per troppo tempo. Mi sento ora nuova e piu’ leggera..l’energia ha preso una nuova forma, pronta a crescere ed espandersi alle infinite possibilita’. Grazie di Cuore il Reset e’ stato compiuto. Ora posso Ricominciare..e Sorrido con Gioia!!! Infinitamente Grata per il tuo lavoro..anche se per me rimane sempre il mistero sul come e cosa..hai fatto per attuare questa trasformazione!!!`,
-            author: 'N.W. - Switzerland',
+            author: 'N.W. - Svizzera',
           },
         ],
         column3: [
           {
             text: 'Non riesco quasi a trovare le parole per esprimere il piccolo miracolo che Danilo ha fatto su di me. Ha usato diverse tecniche energetiche, dalla sua già prodigiosa borsa degli attrezzi per lavorare a livello non materiale, che sono state sentite quasi istantaneamente a livello materiale. Sono venuta da Danilo con diversi problemi e dopo alcune brevi sessioni, ho sentito i miei problemi dipanarsi intorno a me e scivolare via. La mia salute è migliorata, il mio peso sta scendendo e le difficoltà che sto affrontando nella mia vita non sembrano più essere le grandi sfide che erano. In qualche modo, le porte si stanno aprendo davanti a me e sto facendo profondi cambiamenti di vita in modo fluido e facile. Il lavoro è sottile ma sorprendentemente efficace. Sono profondamente grata.',
-            author: 'C.C. - Italy',
+            author: 'C.C. - Italia',
           },
           {
             text: 'Volevo farti sapere che il mal di schiena è passato. Piuttosto miracoloso, poiché mi stavo preparando a settimane di cure per la guarigione.',
-            author: 'E.T. - UK',
+            author: 'E.T. - Regno Unito',
           },
         ],
       },

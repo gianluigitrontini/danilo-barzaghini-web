@@ -12,15 +12,15 @@ function Footer() {
       <img
         src={logo}
         alt='Danilo Barzaghini Logo'
-        className='max-w-[24rem] w-full mt-16 mr-auto object-contain my-auto'
+        className='order-1 lg:order-0 max-w-[24rem] w-full mb-16 lg:mb-0 mt-16 mx-auto lg:ml-0 lg:mr-auto object-contain my-auto'
       />
     );
   };
 
   const ContactBlock = () => {
     return (
-      <div className='footer-contact-background w-[350px] ml-auto -mt-[5rem] relative'>
-        <h3 className='absolute right-[.75rem] font-bold text-xl pr-4 -top-[1rem] border-r-2 border-orange-500'>
+      <div className='order-0 lg:order-1 footer-contact-background lg:w-[350px] mx-auto lg:mr-0 lg:ml-auto mt-16 lg:-mt-[5rem] relative'>
+        <h3 className='absolute right-[.75rem] font-bold text-xl pr-4 -top-[1rem] border-r-2 border-orange-500 text-white lg:text-black'>
           {state.language === 'en'
             ? content.homepage.en.contact.title
             : state.language === 'de'
@@ -50,11 +50,11 @@ function Footer() {
   return (
     <footer className='footer-background py-4 flex'>
       <div className='container flex flex-col justify-between items-center'>
-        <div className='flex justify-between w-full'>
+        <div className='flex flex-col lg:flex-row justify-between w-full'>
           <Logo />
           <ContactBlock />
         </div>
-        <div className='flex items-center justify-between text-white w-full text-sm'>
+        <div className=' flex flex-col lg:flex-row gap-4 lg:gap-0 text-center lg:text-left items-center justify-between text-white w-full text-sm'>
           <span className='inline-block w-64'>
             Design by AskCreatives <br /> Development by{' '}
             <a
@@ -67,7 +67,7 @@ function Footer() {
           <span className='inline-block'>
             Privacy Policy | 2022 © Danilo Barzaghini
           </span>
-          <div className='flex items-center justify-end gap-4 w-64'>
+          <div className='flex items-center justify-center lg:justify-end gap-4 w-64'>
             <a href='https://facebook.com' target='_blank' rel='noreferrer'>
               <Icon facebook />
             </a>

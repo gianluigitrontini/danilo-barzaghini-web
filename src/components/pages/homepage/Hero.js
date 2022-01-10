@@ -28,14 +28,14 @@ function Hero() {
           <div className='h-[85px]'></div>
           <div className='flex flex-col justify-center items-center'>
             <Logo />
-            <h3 className='my-6 text-xl'>
+            <h3 className='my-6 text-lg lg:text-xl'>
               {state.language === 'en'
                 ? content.homepage.en.hero.main
                 : state.language === 'de'
                 ? content.homepage.de.hero.main
                 : content.homepage.it.hero.main}
             </h3>
-            <h3 className='my-6 text-xl'>
+            <h3 className='my-6 text-lg lg:text-xl'>
               {state.language === 'en'
                 ? content.homepage.en.hero.secondary
                 : state.language === 'de'
