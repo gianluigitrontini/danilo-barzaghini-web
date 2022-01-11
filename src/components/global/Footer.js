@@ -39,7 +39,7 @@ function Footer() {
           <Icon phone /> +41 (0)79 222 333 7
         </span>
         <span className='flex items-center gap-2 my-4 text-xl'>
-          <Icon mail /> booking@sublimina.li
+          <Icon mail /> info@barzaghini.com
         </span>
         <span className='flex items-center gap-2 my-4 text-xl'>
           <Icon skype /> danilo.barzaghini
@@ -68,14 +68,23 @@ function Footer() {
             Privacy Policy | 2022 © Danilo Barzaghini
           </span>
           <div className='flex items-center justify-center lg:justify-end gap-4 w-64'>
-            <a href='https://facebook.com' target='_blank' rel='noreferrer'>
+            <a
+              href='https://www.facebook.com/Barzaghini'
+              target='_blank'
+              rel='noreferrer'>
               <Icon facebook />
             </a>
-            <a href='https://twitter.com' target='_blank' rel='noreferrer'>
+            <a
+              href='https://twitter.com/Saibarza'
+              target='_blank'
+              rel='noreferrer'>
               <Icon twitter />
             </a>
-            <a href='https://google.com' target='_blank' rel='noreferrer'>
-              <Icon google />
+            <a
+              href='https://www.instagram.com/danilo__barzaghini/'
+              target='_blank'
+              rel='noreferrer'>
+              <Icon instagram />
             </a>
           </div>
         </div>
