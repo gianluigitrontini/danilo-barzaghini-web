@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { LangContext } from '../../context/LangContext';
 
@@ -31,6 +31,16 @@ function Header() {
       name: 'Podcast',
     },
   ];
+
+  // Add overflow-hidden to body if hamburger menu is toggled
+  useEffect(() => {
+    const body = document.getElementsByTagName('body')[0];
+    isHamburgerToggled && body.classList.add('overflow-hidden');
+    !isHamburgerToggled &&
+      body.classList.contains('overflow-hidden') &&
+      body.classList.remove('overflow-hidden');
+  }, [isHamburgerToggled]);
+
   return (
     <header className='h-[85px] flex items-center z-10'>
       <div className='container flex items-center justify-between'>
@@ -77,7 +87,7 @@ function Header() {
           id='mobile_navigation'
           className={`${
             isHamburgerToggled ? 'block' : 'hidden'
-          } bg-gray-900 fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center lg:hidden text-xl`}>
+          } bg-gray-900 fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center lg:hidden text-xl z-10`}>
           <ul className='flex flex-col justify-center items-center gap-4'>
             {NAV.map((link, i) => (
               <li
