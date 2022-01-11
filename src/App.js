@@ -16,8 +16,8 @@ function App() {
       : dispatch({ type: 'SET_LANG', payload: 'it' });
   }, []);
   return (
-    // <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* <BrowserRouter> */}
       <Header />
       <Routes>
         {/* Non-localized routes */}
