@@ -20,7 +20,9 @@ function MainReviews() {
   };
   return (
     <section>
-      <img src={libro} alt='' className='block relative lg:hidden' />
+      <div className='w-full block relative lg:hidden'>
+        <img src={libro} alt='' className='mobile-book-image' />
+      </div>
 
       <h2 className='font-bold text-xl mt-8 text-center'>
         ~{' '}
